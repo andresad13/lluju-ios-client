@@ -1,0 +1,6 @@
+framework module Pods_TancTests {
+  umbrella header "Pods-TancTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

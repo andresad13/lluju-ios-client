@@ -1,0 +1,12 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FXBlurView" "${PODS_CONFIGURATION_BUILD_DIR}/JRSwizzle" "${PODS_CONFIGURATION_BUILD_DIR}/MLBusinessComponents" "${PODS_CONFIGURATION_BUILD_DIR}/MLCardDrawer" "${PODS_CONFIGURATION_BUILD_DIR}/MLCardForm" "${PODS_CONFIGURATION_BUILD_DIR}/MLUI" "${PODS_CONFIGURATION_BUILD_DIR}/MercadoPagoSDK" "${PODS_ROOT}/GoogleMaps/Base/Frameworks" "${PODS_ROOT}/GoogleMaps/Maps/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FXBlurView/FXBlurView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JRSwizzle/JRSwizzle.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MLBusinessComponents/MLBusinessComponents.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MLCardDrawer/MLCardDrawer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MLCardForm/MLCardForm.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MLUI/MLUI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MercadoPagoSDK/MercadoPagoSDK.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JPush"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/JCore" "${PODS_ROOT}/JPush"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"jcore-ios-2.2.4" -l"jpush-ios-3.3.2" -l"resolv" -l"z" -framework "Accelerate" -framework "CFNetwork" -framework "CoreData" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreLocation" -framework "CoreTelephony" -framework "CoreText" -framework "FXBlurView" -framework "Foundation" -framework "GLKit" -framework "GoogleMaps" -framework "GoogleMapsBase" -framework "GoogleMapsCore" -framework "ImageIO" -framework "JRSwizzle" -framework "MLBusinessComponents" -framework "MLCardDrawer" -framework "MLCardForm" -framework "MLUI" -framework "MercadoPagoSDK" -framework "Metal" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -weak_framework "UserNotifications"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
